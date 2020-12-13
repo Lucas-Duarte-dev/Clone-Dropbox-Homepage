@@ -1,0 +1,51 @@
+section {
+    position:relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+#section-four, #section-four .all-header {
+    background-color: var(--text-color);
+}
+
+#section-one, #section-three{
+    background-color: var(--bg-color)
+}
+#section-two, #section-two .all-header {
+    background-color: var(--secundary-bg-color);
+}
+
+#section-two .all-header .logo span, #section-two header .information a{
+    color: var(--secundary-text-color);
+}
+#section-four .all-header .logo span, #section-four header .information a{
+    color: var(--secundary-text-color);
+}
+#section-four {
+    height: 100vh;
+}
+#section-three {
+    padding-top: 4.5rem;
+
+}
+#section-two .arrows {
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+}
+.arrows img{
+    
+    width: 40px;
+    height: 40px;
+    animation: downArrow 4s ease-in-out infinite;
+}
+
+
+@keyframes downArrow {
+    0%, 40% {
+        transform: translateY(0);
+    }
+    20%, 60% {
+        transform: translateY(20px)
+    }
+}

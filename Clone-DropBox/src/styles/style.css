@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    position: absolute;
+    clip: rect(auto, auto, auto, auto);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+.all-header {
+    width: 100vw;
+    position: fixed;
+    background-color: var(--bg-color);
+    top: 0;
+    left: 0; 
+    right: 0; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 15rem;
+    height: 6rem;
+}
+.all-header .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.all-header .logo span {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-color);
+    margin-left: 0.6rem;
+}
+.content-header  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem;
+}
+.information a {
+    color: var(--text-color);
+    margin-left: 1.2rem;
+    font-size: 1.2rem;
+}
+.information a:hover {
+    text-decoration: underline;
+}
+.contant-information-about-image {
+    display: flex;
+    flex-direction: column;
+    
+}
